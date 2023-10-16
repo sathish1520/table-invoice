@@ -1,0 +1,67 @@
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_list {
+        list-style-type: none;
+        display: flex;
+        gap: 25px;
+        color: white;
+
+    }
+
+    .new_invoice_bttn {
+        border: none;
+        background-color: white;
+        padding: 10px 25px 10px 25px;
+        border-radius: 20px;
+        color: #795ecd;
+        margin-right: 20px;
+
+        span {
+            margin-right: 10px;
+        }
+    }
+
+    .header_bttn_sec {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 33px;
+            margin-left: 20px;
+        }
+
+        .notifi_icon {
+            color: white;
+            font-size: 20px;
+        }
+
+        .notification_count {
+            position: relative;
+
+        }
+
+        .notification_count {
+            .badge {
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                padding: 3px 8px;
+                border-radius: 61%;
+                background-color: #fb9f0c;
+                color: white;
+            }
+        }
+    }
+}
+
+.header_background {
+    background-color: #795ecd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+

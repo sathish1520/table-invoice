@@ -1,0 +1,33 @@
+.total_home {
+    display: flex;
+    justify-content: space-between;
+cursor: pointer;
+    .home_li {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+
+        li {
+            font-weight: 500;
+            color: #795ecd;
+        }
+       
+    }
+
+    .graphic_select {
+        border: none;
+        background-color: #f6f8fb;
+        padding: 10px 26px 10px 10px;
+        border-radius: 22px;
+        font-weight: 500;
+    }
+
+    .serch_home {
+        border: none;
+        background-color: #f6f8fb;
+        padding: 10px 26px 10px 10px;
+        border-radius: 22px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+}

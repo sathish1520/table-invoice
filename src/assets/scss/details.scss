@@ -1,0 +1,250 @@
+.details_select {
+    cursor: pointer;
+
+    .All_select {
+        border: none;
+        background-color: #ffff;
+        margin-right: 8px;
+        padding: 10px 26px 10px 10px;
+        border-radius: 22px;
+        font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .filter_select {
+        border: none;
+        background-color: #ffff;
+        margin-right: 8px;
+        padding: 10px 26px 10px 10px;
+        border-radius: 22px;
+        font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .year_select {
+        border: none;
+        background-color: #ffff;
+        margin-right: 8px;
+        padding: 10px 26px 10px 10px;
+        border-radius: 22px;
+        font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .whole_select {
+        border: none;
+        background-color: #ffff;
+        padding: 10px 26px 10px 10px;
+        border-radius: 22px;
+        font-weight: 500;
+        margin-right: 8px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+
+}
+
+.previous_select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total_backdround {
+    padding-top: 40px;
+    background-color: #f2f5fb;
+    padding-bottom: 20px;
+}
+
+.card_total_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px 15px 30px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+h5{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 600;
+
+}
+h6{
+    font-size: 12px;
+    color: #00000085;
+}
+    .pdf_bttn {
+        border: none;
+        background-color: #eaeff6;
+        padding: 6px 15px 6px 15px;
+        border-radius: 20px;
+        color: #0000007a;
+
+        span {
+            padding-left: 15px;
+        }
+    }
+    .fix_payment_bttn{
+        display: flex;
+        align-items: center;
+        .fix_invoice_bttn {
+            border: none;
+            background-color: #795ecd;
+            padding: 10px 25px 10px 25px;
+            border-radius: 20px;
+            color: white;
+            margin-right: 20px;
+    
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+    .edit_icon{
+        background-color: #eaeff6;
+        height: 32px;
+        /* width: 30px; */
+        text-align: center;
+        padding: 4px 10px 4px 10px;
+        border-radius: 17px;
+        color: #0000008f;
+        margin-right: 10px;
+        
+    }
+}
+
+
+.card_total_detailsactive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px 15px 30px 20px;
+   
+h5{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 600;
+
+}
+h6{
+    font-size: 12px;
+    color: #00000085;
+}
+    .pdf_bttn {
+        border: none;
+        background-color: #eaeff6;
+        padding: 6px 15px 6px 15px;
+        border-radius: 20px;
+        color: #0000007a;
+
+        span {
+            padding-left: 15px;
+        }
+    }
+    .fix_payment_bttn{
+        display: flex;
+        align-items: center;
+        .fix_invoice_bttn {
+            border: none;
+            background-color: #795ecd;
+            padding: 10px 25px 10px 25px;
+            border-radius: 20px;
+            color: white;
+            margin-right: 20px;
+    
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+    .edit_icon{
+        background-color: #eaeff6;
+        height: 32px;
+        /* width: 30px; */
+        text-align: center;
+        padding: 4px 10px 4px 10px;
+        border-radius: 17px;
+        color: #0000008f;
+        margin-right: 10px;
+        
+    }
+}
+
+.paid_payment_bttn{
+    display: flex;
+    align-items: center;
+    .fix_invoice_bttn {
+        border: none;
+        background-color: #e5f8ef;
+        padding: 10px 25px 10px 25px;
+        border-radius: 20px;
+        color: #5f9e8e;
+        font-size: 12px;
+    font-weight: 700;
+        margin-right: 20px;
+
+        span {
+            margin-right: 10px;
+        }
+    }
+}
+
+.card_total_detailsactive1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafe;
+    padding: 30px 15px 30px 20px;
+cursor: pointer;
+   
+h5{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 600;
+
+}
+h6{
+    font-size: 12px;
+    color: #00000085;
+}
+    .pdf_bttn {
+        border: none;
+        background-color: #eaeff6;
+        padding: 6px 15px 6px 15px;
+        border-radius: 20px;
+        color: #0000007a;
+
+        span {
+            padding-left: 15px;
+        }
+    }
+    .fix_payment_bttn{
+        display: flex;
+        align-items: center;
+        .fix_invoice_bttn {
+            border: none;
+            background-color: #795ecd;
+            padding: 10px 25px 10px 25px;
+            border-radius: 20px;
+            color: white;
+            margin-right: 20px;
+    
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+    .edit_icon{
+        background-color: #eaeff6;
+        height: 32px;
+        /* width: 30px; */
+        text-align: center;
+        padding: 4px 10px 4px 10px;
+        border-radius: 17px;
+        color: #0000008f;
+        margin-right: 10px;
+        
+    }
+}
